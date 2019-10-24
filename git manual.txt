@@ -38,4 +38,15 @@ git pull --allow-unrelated-histories
 //How to create new branch
 git  branch name
 
+// to check which branches we have 
+git branch --list
+git branch
+
+//to switch branches
+git checkout master
+
+//to create and open new branch
+git  checkout -b beta
+
+git 
 
