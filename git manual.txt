@@ -48,5 +48,29 @@ git checkout master
 //to create and open new branch
 git  checkout -b beta
 
-git 
+//push to created repository
+git push
+
+//merge command. You should do this inmaster branch.
+git merge branchname
+
+//
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
