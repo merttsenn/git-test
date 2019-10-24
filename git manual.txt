@@ -1,0 +1,79 @@
+//Learn git username 
+git config user.name
+
+//Initialization command for git. You need to write in the folder where yu work.
+git init 
+
+//to check status
+git status
+
+//Add just one file
+git add filename.txt
+
+//Add all file
+git add .
+
+//committing
+git commit -m 'some message here'
+ 
+//to use sublime
+sublime .
+ 
+//to create a new file 
+touch example.txt
+ 
+//to connect with git repository 
+git remote add origin https://github.com/mycelium/hsse-fp-2019-5.git
+ 
+//to check which location
+git remote -v
+ 
+//set remote as-upstream. To be able push to master.
+git push --set-upstream origin master
+ 
+//to ignore our git repositories have different histories
+git pull --allow-unrelated-histories
+:q
+
+//How to create new branch
+git  branch name
+
+// to check which branches we have 
+git branch --list
+git branch
+
+//to switch branches
+git checkout master
+
+//to create and open new branch
+git  checkout -b beta
+
+//push to created repository
+git push
+
+//merge command. You should do this inmaster branch.
+git merge branchname
+
+//delete branch 
+git branch -d name
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
