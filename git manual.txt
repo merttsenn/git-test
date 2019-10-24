@@ -54,7 +54,10 @@ git push
 //merge command. You should do this inmaster branch.
 git merge branchname
 
-//
+//delete branch 
+git branch -d name
+
+
 
 
 
