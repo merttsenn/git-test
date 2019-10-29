@@ -27,6 +27,7 @@ git remote add origin https://github.com/mycelium/hsse-fp-2019-5.git
  
 //to check which location
 git remote -v
+
  
 //set remote as-upstream. To be able push to master.
 git push --set-upstream origin master
@@ -56,6 +57,10 @@ git merge branchname
 
 //delete branch 
 git branch -d name
+git push origin :name
+
+git log
+
 
 
 
